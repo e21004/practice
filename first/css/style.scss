@@ -1,0 +1,34 @@
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #EFA358;
+    &-inner{
+        width: 1000px;
+        height: 80px;
+        margin: 0 auto;
+        padding: 26px 24px 23px 24px;
+        display: flex;
+        justify-content: space-between;
+        .header-logo {
+          font-size: 28px;
+          color: #FFFFFF;
+        }
+        .header-nav {
+          &-list {
+              display: flex;
+              &-item {
+                  margin-right: 20px;
+                  a {
+                      color: #FFFFFF;
+                      font-size: 20px;
+                      text-decoration: none;
+                  }
+              }
+          }
+        }
+    }
+}
+
+.main {
+    
+}
